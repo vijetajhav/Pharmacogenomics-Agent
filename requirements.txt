@@ -1,0 +1,7 @@
+pip install groq requests
+set GROQ_API_KEY=gsk_your_key_here
+python agent_groq.py
+pip install streamlit
+streamlit
+groq
+requests
