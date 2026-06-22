@@ -303,7 +303,7 @@ def run_agent(query: str) -> str:
 
     while True:
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+           model="llama-3.1-8b-instant"
             messages    = messages,
             tools       = TOOLS,
             tool_choice = "auto",
